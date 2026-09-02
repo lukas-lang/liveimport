@@ -36,3 +36,6 @@ Issues = "https://github.com/escreven/liveimport/issues"
 [tool.setuptools]
 package-dir = { "" = "src" }
 include-package-data = false
+
+[tool.setuptools.data-files]
+"etc/ipython/startup" = ["startup/00-liveimport.py"]
